@@ -10,10 +10,8 @@ export const Layout = () => {
   return (
     <div className={classes.layout}>
       <Sidebar />
-
       <main className={classes.main}>
         <Topbar />
-
         <section className={classes.body}>
           <Outlet />
         </section>
